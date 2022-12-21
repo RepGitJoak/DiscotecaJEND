@@ -2364,7 +2364,23 @@ textarea.form-control {
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
+.whatsapp {
+  position:fixed;
+  width:70px;
+  height:70px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d365;
+  color:rgba(255, 255, 255, 0.978);
+  border-radius:50px;
+  text-align:center;
+  font-size:50px;
+  z-index:100;
+}
 
+.whatsapp-icon {
+  margin-top:13px;
+}
 a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
@@ -2373,13 +2389,13 @@ fieldset:disabled a.btn {
 .btn-primary {
   
   color: #ff0000;
-  background-color: #fffcfc;
+  background-color: #ff303000;
   border-color: #ff1717;
 }
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #f7f7f7;
+  background-color: #f7f7f708;
   border-color: #e3000000;
 }
 
