@@ -2371,23 +2371,22 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  height: 48px;
-  width: 48px;
-  color: #212529;
-  background-color: #ff171700;
-  border-color: #ff171700;
+  
+  color: #ff0000;
+  background-color: #fffcfc;
+  border-color: #ff1717;
 }
 
 .btn-primary:hover {
   color: #212529;
-  background-color: #f0000000;
+  background-color: #f7f7f7;
   border-color: #e3000000;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #212529;
-  background-color: #f0000000;
-  border-color: #e3000000;
+  background-color: #ffffff;
+  border-color: #e30000;
   box-shadow: 0 0 0 0.2rem rgba(222, 150, 26, 0.5);
 }
 
